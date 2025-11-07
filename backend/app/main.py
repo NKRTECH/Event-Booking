@@ -29,8 +29,10 @@ async def health():
 
 # include routers
 from app.api import events
+from app.api import bookings
 
 app.include_router(events.router, prefix="/events", tags=["events"])
+app.include_router(bookings.router, tags=["bookings", "users", "events"])
 
 
 if __name__ == "__main__":

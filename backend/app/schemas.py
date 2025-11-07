@@ -46,6 +46,7 @@ class Event(EventBase):
 
 
 class BookingCreate(BaseModel):
+    user_id: int
     seats: int = 1
 
 
