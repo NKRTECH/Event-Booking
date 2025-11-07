@@ -139,3 +139,4 @@ logs/
 # Keep a placeholder for empty folders
 !.gitkeep
 TODO.md
+PR_DESCRIPTION.md
